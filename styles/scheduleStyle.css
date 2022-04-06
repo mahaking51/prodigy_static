@@ -51,11 +51,16 @@ body {
 /* css gallery code */
 #gallery{
     /* height: 85vh; */
-    padding:1.5rem 2.5rem;
+    padding:1.5rem 4rem;
     font-family: ubuntu;
     margin:0;
     background: repeat url('../assets/bg/WEBSITE_BG.png') !important;
 }
+@media screen and (max-width: 1024px) {
+    #gallery {
+     padding:1rem 1.1rem;
+    }
+  }
 .eventcard{
 margin:1rem;
 }
